@@ -1,0 +1,56 @@
+name: educonnect
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.20.1
+  logger: ^2.1.0
+  url_launcher: ^6.2.5
+  smooth_page_indicator: ^1.1.0
+  fluttertoast: ^8.0.9
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+  firebase_analytics: ^11.3.3
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.4
+  firebase_app_check: ^0.3.1+4
+  http: ^1.2.2
+  async: ^2.11.0
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  google_sign_in: ^6.2.2
+  firebase_messaging: ^15.1.4
+  flutter_pannable_rating_bar: ^2.7.2+1
+  fl_chart: ^0.70.1
+  flutter_colorpicker: ^1.1.0
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  open_file: ^3.2.1
+  path_provider: ^2.0.15
+  flutter_pdfview: ^1.4.0
+  file_picker: ^8.1.7
+
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
